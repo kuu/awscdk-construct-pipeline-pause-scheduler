@@ -3,7 +3,7 @@
   "description": "CDK Construct for toggling MediaLive pipeline pause/unpause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miyazaqui/awscdk-construct-pipeline-pause-scheduler.git"
+    "url": "https://github.com/kuu/awscdk-construct-pipeline-pause-scheduler.git"
   },
   "scripts": {
     "build": "npx projen build",

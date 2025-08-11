@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   jsiiVersion: '~5.9.2',
   name: 'awscdk-construct-pipeline-pause-scheduler',
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/miyazaqui/awscdk-construct-pipeline-pause-scheduler.git',
+  repositoryUrl: 'https://github.com/kuu/awscdk-construct-pipeline-pause-scheduler.git',
   keywords: [
     'cdk',
     'cdk-construct',
