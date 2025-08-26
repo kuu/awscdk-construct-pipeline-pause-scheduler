@@ -37,7 +37,7 @@
   "devDependencies": {
     "@stylistic/eslint-plugin": "^2",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.2.1",
+    "@types/node": "^24.3.0",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "commit-and-tag-version": "^12",
@@ -61,8 +61,8 @@
     "constructs": "^10.0.5"
   },
   "dependencies": {
-    "@aws-sdk/client-medialive": "^3.864.0",
-    "aws-cdk-lib": "^2.210.0",
+    "@aws-sdk/client-medialive": "^3.874.0",
+    "aws-cdk-lib": "^2.212.0",
     "awscdk-construct-medialive-channel": "^0.0.12",
     "constructs": "^10.4.2"
   },
