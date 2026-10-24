@@ -43,6 +43,7 @@ new EventBridgeSchedule(scope: Construct, id: string, props: EventBridgeSchedule
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#awscdk-construct-pipeline-pause-scheduler.EventBridgeSchedule.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#awscdk-construct-pipeline-pause-scheduler.EventBridgeSchedule.with">with</a></code> | Applies one or more mixins to this construct. |
 
 ---
 
@@ -53,6 +54,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="awscdk-construct-pipeline-pause-scheduler.EventBridgeSchedule.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="awscdk-construct-pipeline-pause-scheduler.EventBridgeSchedule.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
@@ -167,6 +189,7 @@ new Lambda(scope: Construct, id: string, props: LambdaProps)
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#awscdk-construct-pipeline-pause-scheduler.Lambda.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#awscdk-construct-pipeline-pause-scheduler.Lambda.with">with</a></code> | Applies one or more mixins to this construct. |
 
 ---
 
@@ -177,6 +200,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="awscdk-construct-pipeline-pause-scheduler.Lambda.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="awscdk-construct-pipeline-pause-scheduler.Lambda.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
@@ -291,6 +335,7 @@ new PipelinePauseScheduler(scope: Construct, id: string, props: PipelinePauseSch
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#awscdk-construct-pipeline-pause-scheduler.PipelinePauseScheduler.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#awscdk-construct-pipeline-pause-scheduler.PipelinePauseScheduler.with">with</a></code> | Applies one or more mixins to this construct. |
 
 ---
 
@@ -301,6 +346,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="awscdk-construct-pipeline-pause-scheduler.PipelinePauseScheduler.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="awscdk-construct-pipeline-pause-scheduler.PipelinePauseScheduler.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
